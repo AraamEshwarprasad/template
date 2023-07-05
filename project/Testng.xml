@@ -7,6 +7,9 @@
   <test name="login">
 
      <classes>
+		 <class name="TestCase.loginpgTC">
+			 
+		 </class>
 
 
      </classes>
