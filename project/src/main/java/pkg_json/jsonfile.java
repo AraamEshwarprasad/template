@@ -1,5 +1,6 @@
 package pkg_json;
 
-public class jsonfile {
-
+public class jsonfile 
+{
+	
 }
