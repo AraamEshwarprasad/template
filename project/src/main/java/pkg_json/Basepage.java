@@ -20,12 +20,18 @@ public class Basepage
 		p.load(fis);
 	}
 
-	public static void driverinstallation()
+	public static void driverinstallation() throws IOException
 	{
+		Base();
 		driver = new ChromeDriver();
 		driver.get(p.getProperty("url"));
 		driver.manage().window().maximize();
 
+	}
+	
+	public static void driver_quit()
+	{
+		driver.quit();
 	}
 
 }
