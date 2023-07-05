@@ -12,6 +12,15 @@
     <artifactId>selenium-support</artifactId>
     <version>4.8.3</version>
 </dependency>
+<dependency>
+
+<groupId>org.seleniumhq.selenium</groupId>
+
+<artifactId>selenium-chrome-driver</artifactId>
+
+<version>4.8.3</version>
+
+</dependency>
 
    	<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 <dependency>
@@ -56,10 +65,5 @@
    	
    	
    </dependencies>
-  
-  
-  
-  
-  
   
 </project>
